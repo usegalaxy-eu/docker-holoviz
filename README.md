@@ -3,7 +3,7 @@
 
 # Docker image for Holoviz - constructed for the use as Galaxy IT
 
-[![Docker Repository on Quay](https://quay.io/repository/galaxy/coastal-source-headless/status "Docker Repository on Quay")](https://quay.io/repository/galaxy/holoviz-headless)
+[![Docker Repository on Quay](https://quay.io/repository/galaxy/coastal-source-headless/status "Docker Repository on Quay")](https://quay.io/repository/galaxy/holoviz-jupyterlab)
 Docker container for High-level tools to simplify visualization in Python(Holoviz).
 
 Holoviz is now available on [Galaxy](https://usegalaxy.eu/root?tool_id=interactive_tool_holoviz).
@@ -16,7 +16,7 @@ Holoviz is now available on [Galaxy](https://usegalaxy.eu/root?tool_id=interacti
 You can start the container outside of Galaxy with:
 
 ```bash
-docker run -it  -p 8888:8888  quay.io/galaxy/holoviz-headless:latest jupyter-lab bash
+docker run -it  -p 8888:8888  quay.io/galaxy/holoviz-jupyterlab:latest jupyter-lab bash
 ```
 
 ### Configuration
